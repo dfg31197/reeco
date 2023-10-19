@@ -1,0 +1,35 @@
+.wrapper {
+        background-color: var(--accent);
+        padding: 1rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+}
+
+.nav {
+        display: flex;
+        justify-content: space-between;
+}
+
+.menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 25rem;
+        color: #fff;
+}
+
+.logo {
+        height: 20px;
+}
+
+.user {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & svg {
+                margin-right: 1rem;
+        }
+}

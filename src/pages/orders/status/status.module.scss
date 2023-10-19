@@ -1,0 +1,18 @@
+.wrapper {
+        color: #fff;
+        padding: 0.5rem;
+        width: fit-content;
+        border-radius: 100px;
+        white-space: nowrap;
+        margin: 0 auto;
+        font-size: 14px;
+        &.approved {
+                background-color: green;
+        }
+        &.missing {
+                background-color: orange;
+        }
+        &.missingUrgent {
+                background-color: red;
+        }
+}

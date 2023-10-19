@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  margin-top: 1rem;
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.card {
+  padding: 0.5rem 1rem;
+  flex: 1;
+  border-right: 1px solid #e7e7e7;
+  &.last {
+    border: none;
+  }
+  & p {
+    color: gray;
+    font-weight: bold;
+    margin: 0;
+  }
+}

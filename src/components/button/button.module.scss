@@ -1,0 +1,22 @@
+.button {
+  box-shadow: none;
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  &.primary {
+    color: #fff;
+    border: 1px solid var(--accent);
+    background-color: var(--accent);
+  }
+
+  &.ghost {
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    background-color: transparent;
+  }
+
+  &.small {
+    border: none;
+    background-color: transparent;
+  }
+}

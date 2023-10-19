@@ -1,0 +1,31 @@
+.table {
+  margin-top: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+  & th,
+  td {
+    padding: 0.5rem;
+    text-align: left;
+  }
+}
+.row {
+  border-bottom: 1px solid #e7e7e7;
+}
+.headers {
+  border: 1px solid #e7e7e7;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  // border-collapse: collapse;
+}
+
+.grey {
+  background-color: #f9f9f9;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  & svg {
+    margin: 0 0.5rem;
+  }
+}
